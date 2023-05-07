@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-databinding';
+  name ="Tuyen";
+
+  //Example 1
+  isDisabled= false;
+  //Example 2
+  clearName(){
+    this.name = "";
+  }
 }
